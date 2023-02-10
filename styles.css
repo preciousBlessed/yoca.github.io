@@ -22,6 +22,24 @@
   background-size: cover;
   position: relative;
 }
+.header-contact {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+    url("./images/jungle_boot.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.header-archives {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+    url("./images/amazing_tree_1.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
 
 nav {
   display: flex;
@@ -154,6 +172,20 @@ nav .fa-solid {
   }
 }
 
+/* Styling Announcements */
+.announcecments {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.announcecments h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+
 /* Styling the Courses */
 .course {
   width: 80%;
@@ -178,7 +210,7 @@ p {
 .row {
   margin-top: 5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -388,8 +420,8 @@ h3 {
 .cta {
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./images/yobeKopa.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(85, 87, 4, 0.7)),
+    url(./images/yobe_copa_1.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -418,6 +450,7 @@ h3 {
   width: 100%;
   text-align: center;
   padding: 30px 0;
+  background: rgb(247, 247, 193);
 }
 
 .footer h1 {
@@ -426,13 +459,28 @@ h3 {
   font-weight: 600;
 }
 
-.fa-regular {
+/* .fa-regular {
   color: #f44336;
-}
+} */
 
-.icons .fa-brands {
-  color: #f44336;
+.icons .fa-brands.fa-facebook {
+  color: #3643f4;
   margin: 0 13px;
   cursor: pointer;
   padding: 18px 0;
+  font-size: 2rem;
+}
+.icons .fa-brands.fa-instagram {
+  color: #f436e4;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+  font-size: 2rem;
+}
+.icons .fa-brands.fa-twitter {
+  color: #36eef4;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+  font-size: 2rem;
 }
